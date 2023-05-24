@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="title">
+        <h1>Tchat JS</h1>
+    </div>
+    <div class="bottom"></div>
     <form action="" id="tchat">
         <div class="user1">
             <label for="login1">Pseudo1</label>
@@ -15,7 +19,9 @@
             <label for="message1">message</label>
             <input type="text" id="message1" name="message1">
             <button id="btn-send1">Envoyer</button>
+            <button id="reset">Raffraichir</button>
         </div>
+        <div class="user2">
             <label for="login2">Pseudo2</label>
             <input type="text" id="login2" name="login2">
             <label for="message2">message</label>
@@ -23,7 +29,7 @@
             <button id="btn-send2">Envoyer</button>
             <button id="stop">Stop</button>
         </div>
-        <button id="reset">Raffraichir</button>
+        
         <p id="display-text"></p>
     </form>
 
